@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CS230 Assignment 1 - Emmett Mulroy</title>
+        <link rel="stylesheet" type="text/css" href="assignment-01.css">
+    </head>
+    <body>
+        <script src="assignment-01.js"></script>
+<div class="pyramid-container">
+  
+  
+   <div id="pyramid-top"></div>
+  
+  
+  <div id="pyramid-level-6">
+    <div id="flex-container">  
+  <button
+          class="value-button" id="increase-button"
+          onclick="plusOne(this)"
+          title="Up"
+          ><span>+</span>
+    </button>
+      <div><span class="number">0</span></div>
+    <button 
+    class="value-button" id="decrease-button" 
+    onclick="minusOne(this)" 
+            title="Down"><span>-</span></button>
+    </div>
+  </div>
+  
+  <div id="pyramid-level-5"><div id="flex-container">  
+  <button
+          class="value-button" id="increase-button"
+          onclick="plusOne(this)"
+          title="Up"
+          ><span>+</span>
+    </button>
+      <div><span class="number">0</span></div>
+    <button 
+    class="value-button" id="decrease-button" 
+    onclick="minusOne(this)" 
+            title="Down"><span>-</span></button>
+    </div></div>
+  
+  <div id="pyramid-level-4"><div id="flex-container">  
+  <button
+          class="value-button" id="increase-button"
+          onclick="plusOne(this)"
+          title="Up"
+          ><span>+</span>
+    </button>
+      <div><span class="number">0</span></div>
+    <button 
+    class="value-button" id="decrease-button" 
+    onclick="minusOne(this)" 
+            title="Down"><span>-</span></button>
+    </div></div>
+  <div id="pyramid-level-3"><div id="flex-container">  
+  <button
+          class="value-button" id="increase-button"
+          onclick="plusOne(this)"
+          title="Up"
+          ><span>+</span>
+    </button>
+      <div><span class="number">0</span></div>
+    <button 
+    class="value-button" id="decrease-button" 
+    onclick="minusOne(this)" 
+            title="Down"><span>-</span></button>
+    </div></div>
+  <div id="pyramid-level-2"><div id="flex-container">  
+  <button
+          class="value-button" id="increase-button"
+          onclick="plusOne(this)"
+          title="Up"
+          ><span>+</span>
+    </button>
+      <div><span class="number">0</span></div>
+    <button 
+    class="value-button" id="decrease-button" 
+    onclick="minusOne(this)" 
+            title="Down"><span>-</span></button>
+    </div></div>
+  <div id="pyramid-level-1"><div id="flex-container">  
+  <button
+          class="value-button" id="increase-button"
+          onclick="plusOne(this)"
+          title="Up"
+          ><span>+</span>
+    </button>
+      <div><span class="number">0</span></div>
+    <button 
+    class="value-button" id="decrease-button" 
+    onclick="minusOne(this)" 
+            title="Down"><span>-</span></button>
+    </div>
+    </div>
+  
+  <div class="wrapper">
+<h1>My Food Pyramid</h1>
+ <label>Date entry</label> 
+<input type="text" name="date" id='date' />
+<input type="button" value="submit" onclick="isValid(document.getElementById('date').value)" />
+    
+<p id="printDate">Valid dates appear here</p>
+
+<label class="switch-input">
+   Check box if you are under 5 years old
+  <input type="checkbox"  id = "switch-input">
+</label>
+    
+</div>
+</div>
+  
+<!--  
+Credited work-
+
+//https://codepen.io/nikolaygit/pen/wnchq?css-preprocessor=none *used to create pyramid shapes*
+
+https://codepen.io/patrickthunder/pen/rebOJv?fbclid=IwAR1DTdrV0PZNgx-YAeiGrEOOKp2Bn24QC2ZNw-mXt0gg_Bds3aiU4SwVFSQ  
+*adapted to add validation*
+
+https://codepen.io/gknasln/pen/WNbQmLP
+*used to implement the increase/decrease value buttons*
+-->
+
+</body>
+</html>

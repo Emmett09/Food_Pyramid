@@ -1,0 +1,122 @@
+.pyramid-container {
+  text-align: center;
+}
+
+#flex-container:hover  .value-button {
+  display: block;
+  
+}
+p {
+  font-size: 1.4rem;
+}
+span {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 50px;
+  border-color: black;
+  border: 1px solid;
+  background-color: lightslategrey;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  font-family: arial;
+  
+}
+
+#flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.number{
+  padding: px;
+}
+  
+.value-button {
+  border: 0px;
+  margin: 0px;
+  width: 30px;
+  height: 100%;   
+  padding: 0;
+  background: none; 
+  outline: none;
+  cursor: pointer;
+  display: none;
+  
+}
+
+#pyramid-level-6 {
+  border-bottom: 50px solid red;
+  border-left:40px solid transparent;
+  border-right: 40px solid transparent;
+  height: 0;
+  width: 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#pyramid-level-5 {
+  border-bottom: 50px solid goldenrod;
+  border-left:40px solid transparent;
+  border-right: 40px solid transparent;
+  height: 0;
+  width: 165px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 5px;
+}
+
+#pyramid-level-4 {
+  border-bottom: 50px solid gold;
+  border-left:40px solid transparent;
+  border-right: 40px solid transparent;
+  height: 0;
+  width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 5px;
+}
+#pyramid-level-3 {
+  border-bottom: 50px solid deepskyblue;
+  border-left:40px solid transparent;
+  border-right: 40px solid transparent;
+  height: 0;
+  width: 330px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#pyramid-level-2 {
+  border-bottom: 50px solid sienna;
+  border-left:40px solid transparent;
+  border-right: 40px solid transparent;
+  height: 0;
+  width: 410px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#pyramid-level-1 {
+  border-bottom: 50px solid limegreen;
+  border-left:40px solid transparent;
+  border-right: 40px solid transparent;
+  height: 0;
+  width: 490px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#pyramid-top {
+  border-bottom: 50px solid red;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    height: 0;
+    width: 0px;
+    margin-right:auto;
+    margin-left:auto;
+    padding-top: 200px;
+}
+
